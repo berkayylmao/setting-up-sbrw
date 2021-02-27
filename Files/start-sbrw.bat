@@ -7,7 +7,7 @@ cd sbrw
 set "SELFDIR=%~dp0"
 
 echo "Starting Openfire..."
-start cmd.exe /c "%SELFDIR%\bin\openfire.bat"
+start cmd.exe /c "%SELFDIR%\bin\sbrwopenfirelauncher.bat"
 
 echo "Starting Freeroam MP server..."
 cd "%SELFDIR%\freeroam"
