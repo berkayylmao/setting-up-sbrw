@@ -28,7 +28,9 @@ Next, find which one of your hard drives have the most space; you'll need at lea
 
 ![Imgur](https://i.imgur.com/7Cix7pu.png)
 
-Create a folder somewhere in that drive and copy its path, now do `cd [space] [your path]` in the command prompt. For example, `cd D:\Somewhere\Elsewhere`
+Create a folder somewhere in that drive and copy its path, now do `cd [space] [your path]` in the command prompt.
+
+For example, `cd D:\Somewhere\Elsewhere`.
 
 ### Get the code
 
@@ -311,7 +313,7 @@ If you did everything correctly *and no breaking changes happened in SBRW after 
 
 **Note: This is a very basic setup of the SBRW server.** I only had the time to cover this much of it. 
 
-If you encounter any issues, please open report it [here](https://github.com/berkayylmao/setting-up-sbrw/issues) for the community to discuss. Give as much detail as possible.
+If you encounter any issues, please report it [here](https://github.com/berkayylmao/setting-up-sbrw/issues) for the community to discuss. Give as much detail as possible.
 
 Any and all PRs are welcome.
 
