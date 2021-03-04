@@ -93,14 +93,14 @@ You now have the code, but you'll need applications to make use of them. The fol
 
 	- Minimize `MySQL Workbench`. We'll come back to it later.
 
- - JDK10: [AdaptOpenJDK10](https://github.com/AdoptOpenJDK/openjdk10-binaries/releases/download/jdk-10.0.2%2B13.1/OpenJDK10U-jdk_x64_windows_hotspot_10.0.2_13.zip)
-	- Preferably extract this to C:\AdaptOpenJDK10.
+ - JDK10: [AdoptOpenJDK10](https://github.com/AdoptOpenJDK/openjdk10-binaries/releases/download/jdk-10.0.2%2B13.1/OpenJDK10U-jdk_x64_windows_hotspot_10.0.2_13.zip)
+	- Preferably extract this to C:\AdoptOpenJDK10.
 
 	![Imgur](https://i.imgur.com/ZbdBjGX.png)
 
-	- [Set a user environment variable](https://www.architectryan.com/2018/08/31/how-to-change-environment-variables-on-windows-10/) named `JAVA_HOME` and set its value to `C:\AdaptOpenJDK10`.
+	- [Set a user environment variable](https://www.architectryan.com/2018/08/31/how-to-change-environment-variables-on-windows-10/) named `JAVA_HOME` and set its value to `C:\AdoptOpenJDK10`.
 
-	- [Edit the user or system PATH environment variable](https://www.architectryan.com/2018/03/17/add-to-the-path-on-windows-10/) and add the folder `C:\AdaptOpenJDK10\bin`.
+	- [Edit the user or system PATH environment variable](https://www.architectryan.com/2018/03/17/add-to-the-path-on-windows-10/) and add the folder `C:\AdoptOpenJDK10\bin`.
 
  - Maven: [Apache Maven](https://ftp.itu.edu.tr/Mirror/Apache/maven/maven-3/3.6.3/binaries/apache-maven-3.6.3-bin.zip)
 	- Preferably extract this to C:\ApacheMaven.
