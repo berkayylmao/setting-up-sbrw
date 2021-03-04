@@ -5,12 +5,13 @@ set "JAVA_HOME=C:\AdoptOpenJDK10"
 
 mkdir sbrw
 cd sbrw
-set "SELFDIR=%~dp0"
+set "SELFDIR=%CD%"
 
 pushd %CD%
 cd ..
 cd ..
-set REPOS=%CD%
+cd ..
+set "REPOS=%CD%"
 popd
 
 echo "Building SBRW-Core..."
