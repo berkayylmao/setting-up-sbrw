@@ -49,7 +49,7 @@ if exist "%SELFDIR%\openfire\conf" del /F /Q /S "conf" > NUL
 if exist "%SELFDIR%\openfire\conf" rmdir /Q /S "conf" > NUL
 
 robocopy "%REPOS%\openfire\distribution\target\distribution-base" "%SELFDIR%\openfire" /S /E
-copy /Y "%SELFDIR%\Build tools\sbrwopenfirelauncher.bat" "%SELFDIR%\openfire\bin\sbrwopenfirelauncher.bat"
+copy /Y "%SELFDIR%\..\Build tools\sbrwopenfirelauncher.bat" "%SELFDIR%\openfire\bin\sbrwopenfirelauncher.bat"
 
 echo "Building Openfire RestAPI Plugin..."
 cd "%REPOS%\openfire-restAPI-plugin"

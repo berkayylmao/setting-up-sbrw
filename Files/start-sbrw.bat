@@ -4,9 +4,10 @@ cls
 set "JAVA_HOME=C:\AdoptOpenJDK10"
 
 cd sbrw
-set "SELFDIR=%~dp0"
+set "SELFDIR=%CD%"
 
 echo "Starting Openfire..."
+cd "%SELFDIR%\openfire"
 start cmd.exe /c "%SELFDIR%\bin\sbrwopenfirelauncher.bat"
 
 echo "Starting Freeroam MP server..."
