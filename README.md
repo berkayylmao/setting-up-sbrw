@@ -1,3 +1,8 @@
+# Disclaimer
+
+I wrote this guide only to help people who didn't even know what to do with the code. I offer no support, so **please do not contact me asking for help/support**.
+
+
 # So you want to host an SBRW server?
 
 You better buckle up, because this thing is as tedious as they get. This entire guide will focus on a Windows installation, although it shouldn't be any more difficult for a *nix user to follow.
@@ -316,7 +321,3 @@ If you did everything correctly *and no breaking changes happened in SBRW after 
 If you encounter any issues, please report it [here](https://github.com/berkayylmao/setting-up-sbrw/issues) for the community to discuss. Give as much detail as possible.
 
 Any and all PRs are welcome.
-
-## Disclaimer
-
-I wrote this guide only to help people who didn't even know what to do with the code. I offer no support, so **please do not contact me asking for help/support**.
