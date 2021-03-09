@@ -96,7 +96,7 @@ You now have the code, but you'll need applications to make use of them. The fol
  - JDK10: [AdoptOpenJDK10](https://github.com/AdoptOpenJDK/openjdk10-binaries/releases/download/jdk-10.0.2%2B13.1/OpenJDK10U-jdk_x64_windows_hotspot_10.0.2_13.zip)
 	- Preferably extract this to C:\AdoptOpenJDK10.
 
-	![Imgur](https://i.imgur.com/ZbdBjGX.png)
+	![Imgur](https://i.imgur.com/CaG308t.png)
 
 	- [Set a user environment variable](https://www.architectryan.com/2018/08/31/how-to-change-environment-variables-on-windows-10/) named `JAVA_HOME` and set its value to `C:\AdoptOpenJDK10`.
 
